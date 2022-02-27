@@ -1,0 +1,1 @@
+docker run --rm --name transform_load_csv -v $(pwd)/result:/app/result transform_load_csv python3 main.py csv_config_file

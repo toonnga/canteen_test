@@ -1,0 +1,1 @@
+docker build -t transform_load_csv .
