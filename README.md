@@ -30,7 +30,7 @@ This repository is load data from csv file, transform and give a result to csv f
     - transform_and_load_data.py: have a class "TransformAndLoadData" use for read csv file (sources path) > transform data > load to csv in another path (result path)
 
         - variable in class
-            <pre>self.config_file: config file name <str>
+            <pre>  self.config_file: config file name <str>
             self.donations_detail_path: source file path <str>
             self.mapping_table_path: source file path (mapping file path) <str>
             self.destination_path: destination path <str>
