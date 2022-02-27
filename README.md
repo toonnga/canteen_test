@@ -30,7 +30,7 @@ This repository is load data from csv file, transform and give a result to csv f
     - transform_and_load_data.py: have a class "TransformAndLoadData" use for read csv file (sources path) > transform data > load to csv in another path (result path)
 
         - variable in class
-       <pre>self.config_file: config file name <str>
+            <pre>self.config_file: config file name <str>
             self.donations_detail_path: source file path <str>
             self.mapping_table_path: source file path (mapping file path) <str>
             self.destination_path: destination path <str>
@@ -52,7 +52,7 @@ This repository is load data from csv file, transform and give a result to csv f
 
         - change_data_type_mapping_table method: change data type for mapping_table
 
-        ** ps. if you have new table and new structure, you have to create new method for change column name and change data type. **
+        ```** ps. if you have new table and new structure, you have to create new method for change column name and change data type. **```
 
         - check_length_data method: check for some columns following requirement that is URN and Gift_ID should have 18 characters (but just print to show what record is not 18 characters)
 
